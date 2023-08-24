@@ -1,6 +1,10 @@
+import ListHeader from './components/ListHeader'
+
 function App() {
   return (
-    <div> </div>
+    <div className = "app">
+      <ListHeader listName = {'Holiday List'}/>
+    </div>
   );
 }
 
